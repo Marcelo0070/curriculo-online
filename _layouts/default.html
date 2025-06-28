@@ -4,7 +4,10 @@
   {% include head.html %}
 </head>
 <body class="{{ page.theme | default: '' }}">
-  
+
+  <!-- Botão para abrir o menu (visível só no mobile via CSS) -->
+  <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">☰</button>
+
   {% include theme-toggle.html %}
 
   <div class="layout">
@@ -17,7 +20,16 @@
     </main>
   </div>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const menuBtn = document.getElementById("menu-toggle");
+      const sidebar = document.querySelector(".sidebar");
+
+      menuBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("ativa");
+      });
+    });
+  </script>
+
 </body>
 </html>
-
-
