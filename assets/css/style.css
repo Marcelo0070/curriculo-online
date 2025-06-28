@@ -195,7 +195,7 @@ body.dark .apresentacao p:last-of-type {
 /* Responsivo */
 @media (max-width: 768px) {
   .layout {
-    display: block; /* impede que o flex cause espaçamento */
+    display: block; /* importante: remove flex horizontal */
   }
 
   .menu-toggle {
@@ -203,19 +203,19 @@ body.dark .apresentacao p:last-of-type {
   }
 
   .sidebar {
-    display: none;
     position: fixed;
     top: 0;
-    left: -100%; /* totalmente fora da tela */
+    left: -100%; /* escondida por padrão */
     width: 260px;
     height: 100vh;
+    background: linear-gradient(to bottom, #1a5052, #2b8083);
     z-index: 999;
+    overflow-y: auto; /* permitir rolagem caso ultrapasse a altura */
     transition: left 0.3s ease;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
   }
 
   .sidebar.ativa {
-    left: 0; /* aparece sobre o conteúdo */
+    left: 0;
   }
 
   .content {
