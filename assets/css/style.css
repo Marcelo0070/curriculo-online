@@ -203,6 +203,7 @@ body.dark .apresentacao p:last-of-type {
   }
 
   .sidebar {
+    display: none;
     position: fixed;
     top: 0;
     left: -100%; /* totalmente fora da tela */
@@ -218,13 +219,9 @@ body.dark .apresentacao p:last-of-type {
   }
 
   .content {
-    width: 100vw; /* ocupa a tela toda */
-    max-width: none;
-    margin: 0;
+    width: 100%;
     padding: 16px;
     box-sizing: border-box;
-    position: relative;
-    z-index: 1;
   }
 }
 
