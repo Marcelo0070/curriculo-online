@@ -181,43 +181,42 @@ body.dark .projeto-imagens img {
 
 /* Responsivo */
 @media (max-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    height: 100vh;
-    width: 280px;
-    background: linear-gradient(to bottom, #1a5052, #2b8083);
-    transition: left 0.3s ease;
-    z-index: 999;
-    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.4);
-  }
-
-  .sidebar.ativa {
-    left: 0;
-  }
-
-  .menu-toggle {
-    display: block;
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    background: #1a5052;
-    color: white;
-    border: none;
-    padding: 10px 12px;
-    border-radius: 8px;
-    cursor: pointer;
-    z-index: 1001;
-    font-size: 1.5rem;
-  }
-
   .layout {
     flex-direction: column;
   }
 
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -100%; /* totalmente fora da tela */
+    width: 260px;
+    height: 100vh;
+    z-index: 999;
+    transition: left 0.3s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .sidebar.ativa {
+    left: 0; /* aparece sobre o conteúdo */
+  }
+
+  .menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background-color: #1a5052;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
   .content {
     width: 100%;
-    padding: 5px;
+    padding: 16px;
+    box-sizing: border-box;
   }
 }
