@@ -163,6 +163,19 @@ body.dark .projeto-imagens img {
   box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2);
 }
 
+body.dark h1,
+body.dark .apresentacao h1 {
+  color: #ffffff;
+}
+
+body.dark strong {
+  color: #50d4d1;
+}
+
+body.dark .apresentacao p:last-of-type {
+  color: #fff;
+}
+
 /* Botão de abrir menu (visível só em mobile) */
 .menu-toggle {
   display: none;
@@ -185,6 +198,10 @@ body.dark .projeto-imagens img {
     flex-direction: column;
   }
 
+  .menu-toggle {
+    display: block; /* agora visível apenas em telas pequenas */
+  }
+
   .sidebar {
     position: fixed;
     top: 0;
@@ -200,23 +217,10 @@ body.dark .projeto-imagens img {
     left: 0; /* aparece sobre o conteúdo */
   }
 
-  .menu-toggle {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    background-color: #1a5052;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    padding: 10px 12px;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-
   .content {
     width: 100%;
     padding: 16px;
     box-sizing: border-box;
   }
 }
+
