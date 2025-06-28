@@ -69,18 +69,6 @@
   to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsivo */
-@media (max-width: 480px) {
-  .apresentacao {
-    padding: 20px 16px;
-  }
-
-  .section-header {
-    font-size: 1.5rem;
-    padding: 14px 16px;
-  }
-}
-
 /* Dark mode */
 body.dark .apresentacao {
   background-color: #1a1a1acc;

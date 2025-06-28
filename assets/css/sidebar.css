@@ -124,25 +124,6 @@
   margin: 20px 0;
 }
 
-/* RESPONSIVIDADE */
-@media (max-width: 768px) {
-  .sidebar {
-    width: 100%;
-  }
-
-  .sidebar-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .profile-img {
-    width: 140px;
-    height: 140px;
-  }
-}
-
 /* TEMA ESCURO */
 body.dark .sidebar {
   background-color: #101a2c;

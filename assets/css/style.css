@@ -106,32 +106,3 @@ body.dark {
 body.dark .content {
   background-color: #1a1a1a;
 }
-
-/* Responsividade */
-@media (max-width: 768px) {
-  .layout {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    text-align: center;
-    align-items: center;
-  }
-
-  .sidebar-nav {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .profile-img {
-    width: 120px;
-    height: 120px;
-  }
-
-  .content {
-    padding: 20px;
-  }
-}
