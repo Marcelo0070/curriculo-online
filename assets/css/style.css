@@ -192,36 +192,3 @@ body.dark .apresentacao p:last-of-type {
   cursor: pointer;
 }
 
-/* Responsivo */
-@media (max-width: 768px) {
-  .layout {
-    display: block; /* importante: remove flex horizontal */
-  }
-
-  .menu-toggle {
-    display: block; /* agora visível apenas em telas pequenas */
-  }
-
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: -100%; /* escondida por padrão */
-    width: 260px;
-    height: 100vh;
-    background: linear-gradient(to bottom, #1a5052, #2b8083);
-    z-index: 999;
-    overflow-y: auto; /* permitir rolagem caso ultrapasse a altura */
-    transition: left 0.3s ease;
-  }
-
-  .sidebar.ativa {
-    left: 0;
-  }
-
-  .content {
-    width: 100%;
-    padding: 16px;
-    box-sizing: border-box;
-  }
-}
-

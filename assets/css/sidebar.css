@@ -123,3 +123,47 @@
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin: 20px 0;
 }
+
+@media (max-width: 768px) {
+  .layout {
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1101;
+    background-color: #1a5052;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1a5052, #2b8083);
+    z-index: 1100;
+    overflow-y: auto;
+    transition: left 0.3s ease;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.4);
+  }
+
+  .sidebar.ativa {
+    left: 0;
+  }
+
+  .content {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+}
