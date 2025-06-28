@@ -123,12 +123,3 @@
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   margin: 20px 0;
 }
-
-/* TEMA ESCURO */
-body.dark .sidebar {
-  background-color: #101a2c;
-}
-
-body.dark .sidebar-top {
-  background-color: rgba(38, 126, 118, 0.9);
-}

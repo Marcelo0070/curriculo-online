@@ -68,26 +68,3 @@
   from { opacity: 0; transform: translateY(10px); }
   to   { opacity: 1; transform: translateY(0); }
 }
-
-/* Dark mode */
-body.dark .apresentacao {
-  background-color: #1a1a1acc;
-  color: #f0f0f0;
-}
-
-body.dark .apresentacao h1 {
-  color: #fff;
-}
-
-body.dark .apresentacao p:last-of-type {
-  color: #fff;
-}
-
-body.dark .apresentacao strong {
-  color: #4dcfff;
-}
-
-body.dark .section-header {
-  background-color: #121f33;
-  color: #ffffff;
-}
