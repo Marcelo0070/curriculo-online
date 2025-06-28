@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  {% include head.html %}
+</head>
+<body class="{{ page.theme | default: '' }}">
+  
+  {% include theme-toggle.html %}
+
+  <div class="layout">
+    <aside class="sidebar">
+      {% include sidebar.html %}
+    </aside>
+
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+
+</body>
+</html>
+

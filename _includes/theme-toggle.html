@@ -1,0 +1,23 @@
+<!-- Botão flutuante -->
+<button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">☀️</button>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("theme-toggle");
+    const isDark = localStorage.getItem("theme") === "dark";
+
+    if (isDark) {
+      document.body.classList.add("dark");
+      btn.textContent = "🌙";
+    } else {
+      btn.textContent = "☀️";
+    }
+
+    btn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      const darkMode = document.body.classList.contains("dark");
+      localStorage.setItem("theme", darkMode ? "dark" : "light");
+      btn.textContent = darkMode ? "🌙" : "☀️";
+    });
+  });
+</script>

@@ -1,0 +1,137 @@
+/* Reset básico e tipografia */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  background: url('../img/page-bg.png') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Destaque semântico */
+strong {
+  font-weight: bold;
+  color: #111;
+}
+
+/* Layout principal: sidebar + conteúdo */
+.layout {
+  display: flex;
+  justify-content: center;  /* centraliza horizontalmente */
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* Conteúdo principal */
+.content {
+  width: 800px;
+  padding: 5px;
+  background: transparen;
+  box-sizing: border-box;
+}
+
+
+/* Botão de alternância de tema (modo escuro) */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #1e5b5d;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  z-index: 1000;
+  transition: background 0.3s ease;
+}
+
+.ver-mais {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.theme-toggle:hover {
+  background: #444;
+}
+
+.projeto-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.projeto-imagens img {
+  width: 190px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  cursor: zoom-in; /* 🔍 ícone de lupa */
+  transition: transform 0.2s ease;
+}
+.projeto-imagens img:hover {
+  transform: scale(1.05);
+}
+
+/* Modal */
+#imagem-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.85);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+#imagem-modal img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+}
+
+
+/* Tema escuro */
+body.dark {
+  background: #121212;
+  color: #f1f1f1;
+}
+
+body.dark .content {
+  background-color: #1a1a1a;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .sidebar-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .profile-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}
