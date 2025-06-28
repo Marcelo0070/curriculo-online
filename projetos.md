@@ -37,11 +37,11 @@ title: Projetos
         </ul>
         <h4>Imagens</h4>
         <div class="projeto-imagens">
-          <img src="/assets/img/pd2.png" alt="Cadastro de Pessoas" onclick="expandirImagem(this)">
-          <img src="/assets/img/pd3.png" alt="Cadastro de Famílias" onclick="expandirImagem(this)">
-          <img src="/assets/img/pd4.png" alt="Lista" onclick="expandirImagem(this)">
-          <img src="/assets/img/pd5.png" alt="Visitas Domiciliares" onclick="expandirImagem(this)">
-          <img src="/assets/img/pd6.png" alt="Doações" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/pd2.png' | relative_url }}" alt="Cadastro de Pessoas" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/pd3.png' | relative_url }}" alt="Cadastro de Famílias" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/pd4.png' | relative_url }}" alt="Lista" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/pd5.png' | relative_url }}" alt="Visitas Domiciliares" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/pd6.png' | relative_url }}" alt="Doações" onclick="expandirImagem(this)">
         </div>
         <p style="margin-top: 16px;">
           👉 <a href="https://github.com/Marcelo0070/ProjetoDignidade" target="_blank" rel="noopener noreferrer"><strong>Acesse o projeto completo aqui</strong></a>
@@ -61,32 +61,26 @@ title: Projetos
       <details>
         <summary class="ver-mais">Ver mais detalhes</summary>
         <h4>Funcionalidades</h4>
-      <ul>
-        <li>🧾 <strong>CRUD de Experiências:</strong> Adicione, edite e exclua experiências diretamente no card, com atualização em tempo real.</li>
-        <li>📆 <strong>Seletores personalizados de Mês e Ano:</strong> Interface intuitiva para inserir datas com autocomplete e rolagem inteligente.</li>
-        <li>💾 <strong>Salvamento Temporário:</strong> Armazena dados no localStorage enquanto o usuário preenche o formulário.</li>
-        <li>🌓 <strong>Modo Claro/Escuro:</strong> Interface adaptável com preferências salvas no navegador.</li>
-        <li>🖨️ <strong>Exportação para PDF:</strong> Geração de currículo em PDF a partir dos dados preenchidos.</li>
-      </ul>
-      <h4>Tecnologias Utilizadas</h4>
-      <ul>
-        <li>🔙 <strong>Backend:</strong> Node.js, Express, PostgreSQL, Knex.</li>
-        <li>🔝 <strong>Frontend:</strong> React (Vite), CSS modularizado, localStorage, fetch API.</li>
-      </ul>
-      <h4>Organização e Modularidade</h4>
-      <ul>
-        <li>📁 <strong>Separação por camadas:</strong> Controllers, Models, Routes e Services organizados de forma clara e reutilizável.</li>
-        <li>💡 <strong>Boas práticas de UX:</strong> Feedback visual nos campos, inputs inteligentes e layout responsivo.</li>
-      </ul>
-      <h4>Imagens</h4>
-      <!-- <div class="projeto-imagens">
-        <img src="/assets/img/curriculo1.png" alt="Editor de Experiências" onclick="expandirImagem(this)">
-        <img src="/assets/img/curriculo2.png" alt="Currículo com Modo Escuro" onclick="expandirImagem(this)">
-        <img src="/assets/img/curriculo3.png" alt="Exportação para PDF" onclick="expandirImagem(this)">
-      </div> -->
-      <p style="margin-top: 16px;">
-        👉 <a href="https://github.com/Marcelo0070/criador_curriculo" target="_blank" rel="noopener noreferrer"><strong>Acesse o repositório do projeto</strong></a>
-      </p>
+        <ul>
+          <li>🧾 <strong>CRUD de Experiências:</strong> Adicione, edite e exclua experiências diretamente no card, com atualização em tempo real.</li>
+          <li>📆 <strong>Seletores personalizados de Mês e Ano:</strong> Interface intuitiva para inserir datas com autocomplete e rolagem inteligente.</li>
+          <li>💾 <strong>Salvamento Temporário:</strong> Armazena dados no localStorage enquanto o usuário preenche o formulário.</li>
+          <li>🌓 <strong>Modo Claro/Escuro:</strong> Interface adaptável com preferências salvas no navegador.</li>
+          <li>🖨️ <strong>Exportação para PDF:</strong> Geração de currículo em PDF a partir dos dados preenchidos.</li>
+        </ul>
+        <h4>Tecnologias Utilizadas</h4>
+        <ul>
+          <li>🔙 <strong>Backend:</strong> Node.js, Express, PostgreSQL, Knex.</li>
+          <li>🔝 <strong>Frontend:</strong> React (Vite), CSS modularizado, localStorage, fetch API.</li>
+        </ul>
+        <h4>Organização e Modularidade</h4>
+        <ul>
+          <li>📁 <strong>Separação por camadas:</strong> Controllers, Models, Routes e Services organizados de forma clara e reutilizável.</li>
+          <li>💡 <strong>Boas práticas de UX:</strong> Feedback visual nos campos, inputs inteligentes e layout responsivo.</li>
+        </ul>
+        <p style="margin-top: 16px;">
+          👉 <a href="https://github.com/Marcelo0070/criador_curriculo" target="_blank" rel="noopener noreferrer"><strong>Acesse o repositório do projeto</strong></a>
+        </p>
       </details>
     </div>
   </div>
@@ -101,7 +95,7 @@ title: Projetos
       <strong>Descrição:</strong> Projeto em andamento de uma visual novel interativa com efeitos de parallax. Explora narrativa, lógica de eventos e construção de cenas dinâmicas com foco em storytelling e experiência de usuário.
       <details>
         <summary class="ver-mais">Ver mais detalhes</summary>
-          <h4>Funcionalidades e Destaques</h4>
+        <h4>Funcionalidades e Destaques</h4>
         <ul>
           <li>🎭 <strong>Roteiro Interativo:</strong> Diálogos com múltiplas escolhas, narrativa com loops, eventos condicionais e evolução de relacionamento entre personagens.</li>
           <li>🌌 <strong>Parallax Dinâmico:</strong> Movimento das camadas de fundo em resposta ao mouse para maior imersão.</li>
@@ -115,9 +109,9 @@ title: Projetos
         </p>
         <h4>Imagens</h4>
         <div class="projeto-imagens">
-          <img src="/assets/img/ani1.gif" alt="Cena da Cabana" onclick="expandirImagem(this)">
-          <img src="/assets/img/ani2.gif" alt="Personagem Mãe com Lenço" onclick="expandirImagem(this)">
-          <img src="/assets/img/ani3.png" alt="Efeito Parallax" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/ani1.gif' | relative_url }}" alt="Cena da Cabana" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/ani2.gif' | relative_url }}" alt="Personagem Mãe com Lenço" onclick="expandirImagem(this)">
+          <img src="{{ '/assets/img/ani3.png' | relative_url }}" alt="Efeito Parallax" onclick="expandirImagem(this)">
         </div>
         <p style="margin-top: 16px;">
           👉 <a href="https://github.com/Marcelo0070/jogo_visual_base" target="_blank" rel="noopener noreferrer"><strong>Acompanhe o desenvolvimento no GitHub</strong></a>

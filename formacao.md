@@ -9,7 +9,7 @@ title: Formação
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/software.png" alt="Unifique" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/software.png' | relative_url }}" alt="Engenharia de Software" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Engenharia de Software</h3>
         <p><strong>UGV</strong> | 2022 – 2025 (Concluído)</p>
@@ -22,7 +22,7 @@ title: Formação
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/engenheiro.jpg" alt="Unifique" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/engenheiro.jpg' | relative_url }}" alt="Engenharia Civil" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Engenharia Civil</h3>
         <p><strong>Uniguaçu</strong> | 2015 – 2018 (Concluído)</p>
@@ -35,7 +35,7 @@ title: Formação
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/pericia.png" alt="Unifique" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/pericia.png' | relative_url }}" alt="Engenharia de Avaliação e Perícias" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Pós-graduação em Engenharia de Avaliação e Perícias</h3>
         <p><strong>UniBF</strong> | 2020 (Concluído)</p>
@@ -48,7 +48,7 @@ title: Formação
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/adm.png" alt="Unifique" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/adm.png' | relative_url }}" alt="Técnico em Administração" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Técnico em Administração</h3>
         <p><strong>SENAI/SC</strong> | 2011 – 2013 (Concluído)</p>
@@ -58,6 +58,4 @@ title: Formação
       Curso técnico com ênfase em gestão, organização de processos administrativos e noções de empreendedorismo.
     </div>
   </div>
-
 </div>
-

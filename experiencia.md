@@ -9,7 +9,7 @@ title: Experiência
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/unifique.png" alt="Unifique" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/unifique.png' | relative_url }}" alt="Unifique" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Técnico em Redes e Suporte</h3>
         <p><strong>Unifique</strong> | Jan/2024 – Abr/2025</p>
@@ -22,7 +22,7 @@ title: Experiência
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/ibge.png" alt="IBGE" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/ibge.png' | relative_url }}" alt="IBGE" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Agente Censitário Supervisor</h3>
         <p><strong>IBGE</strong> | Jan/2022 – Jan/2023</p>
@@ -35,7 +35,7 @@ title: Experiência
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/engenheiro.jpg" alt="Engenharia" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/engenheiro.jpg' | relative_url }}" alt="Engenharia" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Engenheiro Civil Autônomo</h3>
         <p><strong>Autônomo</strong> | Jan/2021 – Jan/2023</p>
@@ -48,7 +48,7 @@ title: Experiência
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/ugv.jpg" alt="Faculdade UGV" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/ugv.jpg' | relative_url }}" alt="Faculdade UGV" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Estágio em Suporte Técnico</h3>
         <p><strong>Faculdade UGV</strong> | Set/2023 – Nov/2023</p>
@@ -61,7 +61,7 @@ title: Experiência
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/unespar.png" alt="UNESPAR" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/unespar.png' | relative_url }}" alt="UNESPAR" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Estágio em Suporte a Ensino Online</h3>
         <p><strong>UNESPAR / Programa Restec</strong> | Jan/2023 – Jun/2023</p>
@@ -74,7 +74,7 @@ title: Experiência
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
-      <img src="/assets/img/empresas/uniguacu.png" alt="Uniguaçu" class="experiencia-img">
+      <img src="{{ '/assets/img/empresas/uniguacu.png' | relative_url }}" alt="Uniguaçu" class="experiencia-img">
       <div class="experiencia-titulo">
         <h3>Monitor de Estatística e Cálculo</h3>
         <p><strong>Faculdade Uniguaçu</strong> | 2018 – 2019</p>
@@ -86,3 +86,4 @@ title: Experiência
   </div>
 
 </div>
+
