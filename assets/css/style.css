@@ -195,7 +195,7 @@ body.dark .apresentacao p:last-of-type {
 /* Responsivo */
 @media (max-width: 768px) {
   .layout {
-    flex-direction: column;
+    display: block; /* impede que o flex cause espaçamento */
   }
 
   .menu-toggle {
@@ -218,9 +218,13 @@ body.dark .apresentacao p:last-of-type {
   }
 
   .content {
-    width: 100%;
+    width: 100vw; /* ocupa a tela toda */
+    max-width: none;
+    margin: 0;
     padding: 16px;
     box-sizing: border-box;
+    position: relative;
+    z-index: 1;
   }
 }
 
