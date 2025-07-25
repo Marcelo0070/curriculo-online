@@ -12,7 +12,7 @@ permalink: /dashboard/
   <iframe title="Indicadores de Trabalho SC"
           width="100%"
           height="600"
-          src="https://app.powerbi.com/view?r=eyJrIjoiMGFIOG..."
+          src="https://app.powerbi.com/view?r=eyJrIjoiMGFlOGM5YjUtYTY4MC00NDQ3LTljN2EtMWNjNjgxZGZjMDk5IiwidCI6Ijg4Y2Q0MmI0LTA1MTMtNDk5NS05Y2VmLTdlOWZiNDhjZTE1OSJ9"
           frameborder="0"
           allowfullscreen="true">
   </iframe>
