@@ -19,6 +19,20 @@ title: Formação
       Graduação focada no desenvolvimento de software, engenharia de requisitos, estruturas de dados, programação orientada a objetos, banco de dados e arquitetura de sistemas.
     </div>
   </div>
+  
+  <div class="experiencia-card">
+    <div class="experiencia-topo">
+      <img src="/curriculo-online/assets/img/empresas/dados.png" alt="Análise de Dados e Big Data" class="experiencia-img" />
+      <div class="experiencia-titulo">
+        <h3>Pós-graduação em Análise de Dados e Big Data</h3>
+        <p><strong>Unialphaville</strong> | 2024 – atual (Em andamento)</p>
+      </div>
+    </div>
+    <div class="experiencia-conteudo">
+      Formação voltada para análise de grandes volumes de dados com foco em estatística, Power BI, Python, bancos relacionais e não relacionais, visualização e extração de insights para tomada de decisão.
+    </div>
+  </div>
+  
 
   <div class="experiencia-card">
     <div class="experiencia-topo">
