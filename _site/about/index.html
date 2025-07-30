@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Currículo Marcelo Barbosa</title>
+
+<!-- Estilos -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/curriculo-online/assets/css/style.css">
+<link rel="stylesheet" href="/curriculo-online/assets/css/apresentacao.css">
+<link rel="stylesheet" href="/curriculo-online/assets/css/sidebar.css">
+<link rel="stylesheet" href="/curriculo-online/assets/css/experiencia.css">
+
+<!-- Ícones (Font Awesome) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body class="">
+
+  <!-- Botão de abrir menu (aparece só no mobile) -->
+  <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menu">☰</button>
+
+  <!-- Botão flutuante -->
+<button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">☀️</button>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("theme-toggle");
+    const isDark = localStorage.getItem("theme") === "dark";
+
+    if (isDark) {
+      document.body.classList.add("dark");
+      btn.textContent = "🌙";
+    } else {
+      btn.textContent = "☀️";
+    }
+
+    btn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      const darkMode = document.body.classList.contains("dark");
+      localStorage.setItem("theme", darkMode ? "dark" : "light");
+      btn.textContent = darkMode ? "🌙" : "☀️";
+    });
+  });
+</script>
+
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+  <img src="/curriculo-online/assets/img/marcelo-profile-circular.png" alt="Foto de Marcelo Barbosa" class="profile-img">
+  <h1>Marcelo Barbosa</h1>
+  <p class="role">Engenheiro de Software</p>
+</div>
+
+<hr class="sidebar-divider" aria-hidden="true">
+
+<nav class="sidebar-nav" aria-label="Navegação principal">
+  <a href="/curriculo-online/index.html">Apresentação</a>
+  <a href="/curriculo-online/projetos.html">Projetos</a>
+  <a href="/curriculo-online/experiencia.html">Experiência</a>
+  <a href="/curriculo-online/formacao.html">Formação</a>
+  <a href="/curriculo-online/cursos.html">Cursos</a>
+  <a href="/curriculo-online/dashboards.html">Dashboards</a>
+</nav>
+
+<hr class="sidebar-divider" aria-hidden="true">
+
+<div class="sidebar-links">
+  <p><i class="fas fa-envelope" aria-hidden="true"></i> 
+    <a href="mailto:marcelo.bar.eng@gmail.com">marcelo.bar.eng@gmail.com</a></p>
+  
+  <p><i class="fab fa-linkedin" aria-hidden="true"></i> 
+    <a href="https://www.linkedin.com/in/marcelo-barbosa-da-silva-665abb29a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </p>
+
+  <p><i class="fab fa-github" aria-hidden="true"></i>
+    <a href="https://github.com/Marcelo0070?tab=projects" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </p>
+
+  <p><i class="fas fa-phone" aria-hidden="true"></i> 
+    <a href="tel:+5542991010709">+55 42 99101-0709</a>
+  </p>
+</div>
+
+    </aside>
+
+    <main class="content">
+      <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">About</h1>
+  </header>
+
+  <div class="post-content">
+    <p>This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at <a href="https://jekyllrb.com/">jekyllrb.com</a></p>
+
+<p>You can find the source code for Minima at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/minima">minima</a></p>
+
+<p>You can find the source code for Jekyll at GitHub:
+<a href="https://github.com/jekyll">jekyll</a> /
+<a href="https://github.com/jekyll/jekyll">jekyll</a></p>
+
+
+  </div>
+
+</article>
+
+    </main>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const menuBtn = document.getElementById("menu-toggle");
+      const sidebar = document.querySelector(".sidebar");
+
+      menuBtn.addEventListener("click", () => {
+        sidebar.classList.toggle("ativa");
+      });
+    });
+  </script>
+
+</body>
+</html>

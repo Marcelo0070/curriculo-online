@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Dashboard
-permalink: /dashboard/
+permalink: /dashboard.html/
 ---
 <div class="section-header">Apresentação</div>
 

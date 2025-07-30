@@ -10,7 +10,9 @@ title: Início
 <h1>Olá, sou Marcelo Barbosa</h1>
 
 <p>Sou desenvolvedor em formação, com experiência prática em suporte técnico, desenvolvimento de sistemas e atualmente em transição para a área de <strong>Análise de Dados</strong>.</p>
+<p>Sou desenvolvedor em formação, com experiência prática em suporte técnico, desenvolvimento de sistemas e atualmente em transição para a área de <strong>Análise de Dados</strong>.</p>
 
+<p>Desenvolvi um sistema completo para o Projeto Dignidade, voltado ao atendimento de pessoas em situação de vulnerabilidade. Feito em Python e SQLite, o sistema funciona offline e gerencia cadastros, doações, visitas e perfis de beneficiários. Também estou desenvolvendo um sistema interativo de currículo com Node.js e PostgreSQL, além de um jogo autoral em Ren'Py. Os detalhes estão na seção de <a href="{{ '/projetos.html' | relative_url }}">Projetos</a>.</p>
 <p>Desenvolvi um sistema completo para o Projeto Dignidade, voltado ao atendimento de pessoas em situação de vulnerabilidade. Feito em Python e SQLite, o sistema funciona offline e gerencia cadastros, doações, visitas e perfis de beneficiários. Também estou desenvolvendo um sistema interativo de currículo com Node.js e PostgreSQL, além de um jogo autoral em Ren'Py. Os detalhes estão na seção de <a href="{{ '/projetos.html' | relative_url }}">Projetos</a>.</p>
 
 <p>Atualmente estou cursando uma <strong>Pós-graduação em Análise de Dados</strong> e também realizando o <strong>Google Analytics Data Analyst Certificate</strong>, com foco em desenvolver habilidades sólidas em visualização, tratamento de dados e geração de insights.</p>
@@ -20,8 +22,10 @@ title: Início
 <p>Tenho familiaridade com Python, SQL, Power BI, PostgreSQL, SQLite e lógica de programação. Embora goste de frontend, me sinto mais completo como desenvolvedor fullstack, entendendo o projeto de ponta a ponta e conectando os dados ao uso prático.</p>
 
 <p>No suporte técnico, atuei diretamente com problemas de conectividade, redes, roteadores, sistemas e atendimento ao usuário. Sou autodidata, me adapto bem ao trabalho remoto.</p>
+<p>No suporte técnico, atuei diretamente com problemas de conectividade, redes, roteadores, sistemas e atendimento ao usuário. Sou autodidata, me adapto bem ao trabalho remoto.</p>
 
 <p>Neste site você pode conhecer melhor meus projetos, experiências e formação.</p>
+<p><strong>Atualmente em transição para Análise de Dados. Disponível para oportunidades remotas.</strong></p>
 <p><strong>Atualmente em transição para Análise de Dados. Disponível para oportunidades remotas.</strong></p>
 <hr>
 
