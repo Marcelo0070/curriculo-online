@@ -20,3 +20,15 @@ permalink: /dashboard.html/
           allowfullscreen="true">
   </iframe>
 </div>
+
+  <h2>Dashboard Teste ABC</h2>
+  <p>Este painel é um <strong>protótipo técnico</strong>. Todos os dados apresentados são <strong>fictícios e aleatórios</strong>, criados apenas para demonstrar habilidades danálise e visualização em <em>Power BI</em> e <em>Python</em>. 
+
+  <div style="border: 1px solid #ccc; border-radius: 8px; overflow: hidden;">
+    <iframe title="Dashboard Teste ABC"
+            width="100%"
+            height="600"
+            src="https://app.powerbi.com/view?r=eyJrIjoiY2U1NzE1N2YtNWNhNy00MDlkLTllNWEtMzVkMTgyZTJiYmQ2IiwidCI6Ijg4Y2Q0MmI0LTA1MTMtNDk5NS05Y2VmLTdlOWZiNDhjZTE1OSJ9"
+            frameborder="0"
+            allowfullscreen="true">
+    </iframe>

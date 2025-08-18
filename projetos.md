@@ -120,6 +120,45 @@ title: Projetos
     </div>
   </div>
 
+   <!-- TESTE ABC – Pipeline Analítico (Python + Power BI) -->
+  <div class="experiencia-card">
+    <div class="experiencia-titulo">
+      <h3>TESTE ABC — Pipeline Analítico (Python + Power BI)</h3>
+      <p><strong>Stack:</strong> Python (Pandas, NumPy, SciPy, SQLite), Power BI</p>
+    </div>
+    <div class="experiencia-conteudo">
+      <strong>Descrição:</strong> Projeto técnico com <strong>dados fictícios e aleatórios</strong> para demonstrar
+      qualidade técnica: limpeza/padronização, carga em SQLite, métricas de negócio (ticket médio, valor por cliente,
+      frequência, taxas de cancelamento/pendência), testes Kruskal–Wallis (SciPy) e exportação para <code>resultados/</code>.
+      Integra com Power BI.
+
+      <details>
+        <summary class="ver-mais">Ver mais detalhes</summary>
+
+        <h4>Destaques</h4>
+        <ul>
+          <li>Tratamento de dados (acentos, termos, capitalização, normalização de status).</li>
+          <li>Criação de banco <strong>SQLite</strong> e tabelas relacionais para consultas.</li>
+          <li>Métricas: ticket médio, valor médio por cliente, frequência de compra, cancelamento e pendência.</li>
+          <li>Estatística: teste <strong>Kruskal–Wallis</strong> com SciPy para comparar grupos/estados/categorias.</li>
+          <li>Orquestração via <code>init.py</code>: gera <code>data_tratada/</code> e <code>resultados/</code>.</li>
+          <li>Visualização no <strong>Power BI</strong> (dashboards de apoio ao case).</li>
+        </ul>
+
+        <h4>Avisos</h4>
+        <ul>
+          <li>Todos os dados são <strong>fictícios</strong> e servem apenas para <strong>demonstração técnica</strong>.</li>
+        </ul>
+
+        <p style="margin-top: 16px;">
+          👉 <a href="https://github.com/Marcelo0070/Teste_ABC_Pyton/tree/main" target="_blank" rel="noopener noreferrer">
+            <strong>Acesse o repositório (código e dados)</strong>
+          </a>
+        </p>
+      </details>
+    </div>
+  </div>
+
 </div>
 
 <!-- Modal para Imagem Expandida -->
